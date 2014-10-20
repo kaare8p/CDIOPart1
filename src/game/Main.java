@@ -27,6 +27,7 @@ public class Main {
 			//Change player
 			currentPlayer = changePlayer(currentPlayer);
 			}
+	System.out.println("Testing Git!");
 	}
 	
 	//Method to change the player
