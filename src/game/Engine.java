@@ -44,12 +44,11 @@ public class Engine {
 		if (dice.getOnes()) {
 			this.ones(player, currentPlayer);
 			sixesPreviouslyThrown = false;
-			System.out.println("he");
+			
 			System.out.println("Equal pair of dice thrown! Press enter to throw again");
-
+			//Throw dice again
 			return this.throwDice(player, dice, currentPlayer);
 		}
-		
 		//If the score of the player is greater than or equal to 40, win the game
 		else if (player.getScore(currentPlayer) >= 40) {
 			sixesPreviouslyThrown = false;
