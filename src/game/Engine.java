@@ -44,9 +44,9 @@ public class Engine {
 		if (dice.getOnes()) {
 			this.ones(player, currentPlayer);
 			sixesPreviouslyThrown = false;
-			
+			System.out.println("he");
 			System.out.println("Equal pair of dice thrown! Press enter to throw again");
-			//Throw dice again
+
 			return this.throwDice(player, dice, currentPlayer);
 		}
 		
